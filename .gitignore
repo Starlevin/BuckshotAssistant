@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+build/
+dist/
+*.spec
+artifacts/
+*.zip
+*.log
+.pytest_cache/
+third_party/buckshot-roulette-solver/*
+!third_party/buckshot-roulette-solver/ai_engine.py
+!third_party/buckshot-roulette-solver/best.onnx
+!third_party/buckshot-roulette-solver/LICENSE
+!third_party/buckshot-roulette-solver/README.md
